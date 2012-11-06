@@ -13,6 +13,8 @@ Currently applet will fail if Pidgin is not started yet.
 For debug please start Pidgin first, and then run command:
  ./contact-factory3.py -d
 
+We use DBus to connect for Pidgin:
+https://developer.pidgin.im/wiki/DbusHowto
 
 Applet created by panel-applet-generator https://github.com/palfrey/panel-applet-generator
  sudo ./panel-applet-generator.py --name=contact --description="Quick access for contact from panel: start a conversation in Pidgin or send email" --icon=contact-applet.svg --maintainer="Sergey Ponomarev" --email=stokito@gmail.com --category=Network
