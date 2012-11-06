@@ -1,3 +1,0 @@
-[D-BUS Service]
-Name=org.gnome.panel.applet.contactFactory
-Exec=/usr/lib/gnome-applets/contact-factory3.py
