@@ -1,0 +1,6 @@
+org.gnome.applets.contact.panel-applet usr/share/gnome-panel/4.0/applets/
+org.gnome.panel.applet.contact.service usr/share/dbus-1/services/
+contact-factory2.py usr/lib/gnome-applets
+contact-factory3.py usr/lib/gnome-applets
+contactApplet.py usr/lib/gnome-applets
+contact.server usr/lib/bonobo/servers 

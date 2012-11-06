@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=contactFactory
+Location=/usr/lib/gnome-applets/contact-factory3.py
+Name=contact Factory
+
+[contact]
+Name=contact
+Description=Quick access for contact from panel: start a conversation in Pidgin or send email
+Icon=contact-applet.svg
+BonoboId=OAFIID:contactFactory
