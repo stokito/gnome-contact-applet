@@ -1,0 +1,10 @@
+[Applet Factory]
+Id=contactFactory
+Location=/usr/lib/gnome-applets/contact-factory3.py
+Name=contact Factory
+
+[contact]
+Name=contact
+Description=pidgin
+Icon=kcm_gtk.png
+BonoboId=OAFIID:contactFactory

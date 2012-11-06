@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<oaf_info>
+	<oaf_server iid="OAFIID:contact_Factory"
+		type="exe"
+		location="/usr/lib/gnome-applets/contact-factory2.py">
+        <oaf_attribute name="repo_ids" type="stringv">
+                <item value="IDL:Bonobo/GenericFactory:1.0"/>
+                <item value="IDL:Bonobo/Unknown:1.0"/>
+        </oaf_attribute>
+        <oaf_attribute name="name" type="string" value="contact"/>
+        <oaf_attribute name="description" type="string" value="pidgin"/>
+  </oaf_server>
+	<oaf_server iid="OAFIID:contact"
+				type="factory" 
+				location='OAFIID:contact_Factory'>
+
+			<oaf_attribute name="repo_ids" type="stringv">
+					<item value="IDL:GNOME/Vertigo/PanelAppletShell:1.0"/>
+					<item value="IDL:Bonobo/Control:1.0"/>
+					<item value="IDL:Bonobo/Unknown:1.0"/>
+			</oaf_attribute>
+			<oaf_attribute name="name" type="string" value="contact"/>
+			<oaf_attribute name="description" type="string" value="pidgin"/>
+			<oaf_attribute name="panel:category" type="string" value="Network"/>
+			<oaf_attribute name="panel:icon" type="string" value="kcm_gtk.png"/>
+	</oaf_server>
+</oaf_info>	
