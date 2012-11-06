@@ -1,4 +1,8 @@
 .idea
+debian/contact
+debian/contact.debhelper.log
+debian/contact.substvars
+debian/files
 
 *.py[co]
 
