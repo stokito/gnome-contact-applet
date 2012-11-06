@@ -1,7 +1,8 @@
 gnome-contact-applet
 ====================
 
-Quick access for contact from panel: start a conversation in Pidgin or send email
+Quick access for contact from panel: start a conversation in Pidgin or send email.
+One click: start conversation, double click send text clipboard.
 
 You can install GNOME on your Ubuntu by command:
  sudo apt-get install gnome-session-fallback  gnome-panel
